@@ -1,0 +1,86 @@
+#Background{
+	width: 343px;
+	height: 480px;
+	position: relative;
+	top: 100px;
+	margin: 0 auto;
+	background-image:url(img/bg.jpg);
+	overflow: hidden;
+}
+
+#head{
+	width: 236px;
+	height: 77px;
+	position: absolute;
+	top: 100px;
+	left: 53px;
+	background-image: url(img/head.jpg);
+}
+
+#headBird{
+	margin-top: 25px;
+	float:right;
+}
+
+#StartButton{
+	width: 85px;
+	height: 29px;
+	position: absolute;
+	top: 250px;
+	left: 129px;
+	padding: 0;
+	margin: 0;
+	background-image: url(img/start.jpg);
+}
+
+#Banner1{
+	width: 343px;
+	height: 14px;
+	position: absolute;
+	top: 423px;
+	background-image: url(img/banner.jpg);
+}
+
+#Banner2{
+	width: 343px;
+	height: 14px;
+	position: absolute;
+	top: 423px;
+	left: 343px;
+	background-image: url(img/banner.jpg);
+}
+
+#Score{
+	position:absolute;
+	top:50px;
+	left: 130px;
+	z-index: 1;
+}
+
+#Score div{
+	height: 39px;
+	width: 28px;
+	background-image: url(img/0.jpg);
+	float: left;
+	display: none;
+}
+
+#Bird{
+	width: 40px;
+	height: 28px;
+	background-image: url(img/bird0.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 50px;
+	top: 200px;
+	z-index: 1;
+	display: none;
+}
+
+#GameOver{
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	display: none;
+	z-index: 1;
+}
